@@ -1,4 +1,12 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+	experimental: {
+		appDir: true,
+		serverComponentsExternalPackages: ["mongoose"],
+	},
+	images: {
+		domains: ["media.sproutsocial.com", "lh3.googleusercontent.com"],
+	},
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
