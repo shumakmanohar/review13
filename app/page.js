@@ -42,14 +42,14 @@ export default function Home() {
 
 			{/* HERO with Search */}
 			<div className="home-container w-full">
-				<h1 className="mt-20 text-center text-8xl  font-bold tracking-wide">
+				<h1 className="mt-20 text-center text-6xl sm:text-8xl  font-bold tracking-wide">
 					Rɘview 13
 				</h1>
 				<div className="my-16 w-full">
 					<p className="text-center mb-10 text-xl">
-						Next Js 13 Launched This site [Review 13] is built using the latest
-						NextJs version . Share your thoughts about NextJS 13. Websites use
-						NextAuth for authentication and MongoDB for data storage.
+						This site [Review 13] is built using the latest NextJs version .
+						Share your thoughts about NextJS 13. Websites use NextAuth for
+						authentication and MongoDB for data storage.
 					</p>
 					<div className="flex w-full items-center ">
 						<button
