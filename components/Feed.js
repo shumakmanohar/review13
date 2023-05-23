@@ -6,7 +6,7 @@ import { useState, useEffect } from "react";
 const Feed = ({ showErrorMsg }) => {
 	const [allPosts, setAllPosts] = useState([]);
 	const fetchPosts = async () => {
-		const response = await fetch("/api/post");
+		const response = await fetch("/api/post", { cache: "no-store" });
 		const data = await response.json();
 		setAllPosts(data);
 	};
